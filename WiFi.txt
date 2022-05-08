@@ -1,5 +1,7 @@
 #include<WiFi.h>
 #include<WiFiClient.h>
+#include<WebServer.h>
+#include<ESPDNS.h>
 const char ssid[]="CHT_G040WQ_541";
 const char pwd[24511153]="24511153"; 
 
@@ -22,6 +24,6 @@ void setup() {
   Serial.println(WiFi.localIP()); //讀取IP位址
   Serial.print("WiFi RSSI:");
   Serial.println(WiFi.RSSI()); //讀取WiFi強度
-  
-
-}
+ }
+ void loop{
+ }
